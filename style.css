@@ -68,8 +68,12 @@ body {
     background-color: #ac74ba;
 }
 
-.container a.signin, a.pass {
+.container a.signin, a.noacc {
    margin-top: 5px;
+}
+
+.container a.pass {
+    justify-content: right;
 }
 
 .container button:hover {
